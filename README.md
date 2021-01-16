@@ -1,6 +1,6 @@
 ## Welcome to our page
 
-Here you will find a list of projects, repositories and tutorials regarding all of our work.
+We are the Lost Nintendo History team. A group of skilled hackers and Nintendo enthusiasts. Here you will find our projects, repositories and tutorials regarding all of our work.
 
 ## Our Projects
 
