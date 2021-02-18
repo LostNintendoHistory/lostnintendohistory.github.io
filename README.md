@@ -6,5 +6,5 @@ We are the Lost Nintendo History team. A group of Nintendo enthusiasts and skill
 
 #### Nintendo DS Hidden TV Output
 
-During late 2020, we discovered that the Nintendo DS (both Nintendo DS Phat and Nintendo DS Lite) had a leftover feature in the SoC allowing it to have hardware video output. With a little circuitry and some hacks, we were able to restore it and make it usable for anyone! No FPGA's, no bulky and cumbersome hardware. Click [here](https://github.com/LostNintendoHistory/Lost-NDS-TV) to see the project page.
+During late 2020, we discovered that the Nintendo DS Lite had a leftover feature in its SoC allowing it to easily have hardware video output. With a little circuitry and some software hacks, we were able to restore it and make it usable for anyone! No FPGA's, no bulky or cumbersome hardware. Click [here](https://github.com/LostNintendoHistory/Lost-NDS-TV) to see the project page.
 
