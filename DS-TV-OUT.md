@@ -12,7 +12,7 @@ The retail firmware of the Nintendo DS Lite (not the BIOS) disables this specifi
 
 This feature is only found on the Nintendo DS Lite. Nintendo DS Phat does not contain this feature nor does the Nintendo DSi. It is important to remark that **this is not the same hardware** found on Devkits or other special units. This hardware feature is present in virtually **every single Nintendo DS Lite** out there. The reason why it was left there is unknown, but as said before, it is not related to development units, those use a different video capture hardware. Maybe Nintendo imagined the Nintendo Switch as early as 2006?
 
-![]()
+![](/img/PCB_Rev_11.png)
 
 We only need a few extra hardware components to make this video signal usable. You can download the schematics and gerber files for our open hardware circuit board [from the repository](https://github.com/LostNintendoHistory/Lost-NDS-TV). NOTE: Currently working on revision 1.2 to fix some minor issues.
 
