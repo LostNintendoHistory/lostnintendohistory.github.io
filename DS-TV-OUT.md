@@ -4,7 +4,7 @@
 
 During late 2020, we discovered that the Nintendo DS Lite had a leftover feature in its SoC allowing it to easily have hardware video output. With a little circuitry and some software hacks, we were able to restore it and make it usable for anyone! No FPGA's, no bulky or cumbersome hardware.
 
-![First iteration of the TV-OUT board](https://raw.githubusercontent.com/LostNintendoHistory/lostnintendohistory.github.io/main/img/NDSTVOUT/DSTVOUT.jpg)
+![First iteration of the TV-OUT board](https://raw.githubusercontent.com/LostNintendoHistory/lostnintendohistory.github.io/main/img/NDSTVOUT/DSTVOUT.jpg =250x250)
 
 ## Software
 
