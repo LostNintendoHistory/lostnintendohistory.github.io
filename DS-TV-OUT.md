@@ -4,7 +4,8 @@
 
 During late 2020, we discovered that the Nintendo DS Lite had a leftover feature in its SoC allowing it to easily have hardware video output. With a little circuitry and some software hacks, we were able to restore it and make it usable for anyone! No FPGA's, no bulky or cumbersome hardware.
 
-![First iteration of the TV-OUT board](https://raw.githubusercontent.com/LostNintendoHistory/lostnintendohistory.github.io/main/img/NDSTVOUT/DSTVOUT.jpg =250x250)
+<img src="https://raw.githubusercontent.com/LostNintendoHistory/lostnintendohistory.github.io/main/img/NDSTVOUT/DSTVOUT.jpg" width="250" height="250">
+**First iteration of the TV-OUT board**
 
 ## Software
 
@@ -18,7 +19,7 @@ This feature is only found on the Nintendo DS Lite. Nintendo DS Phat does not co
 
 We only need a few extra hardware components to make this video signal usable. You will be able to download the schematics and gerber files for our open hardware circuit board [from the repository](https://github.com/LostNintendoHistory/Lost-NDS-TV). NOTE: Currently working on revision 1.2 to fix some minor issues.
 
-![First prototype and tests before designing a proper board](https://raw.githubusercontent.com/LostNintendoHistory/lostnintendohistory.github.io/main/img/NDSTVOUT/Prototype.jpg)<br>First prototype and tests before designing a proper board
+![First prototype and tests before designing a proper board](https://raw.githubusercontent.com/LostNintendoHistory/lostnintendohistory.github.io/main/img/NDSTVOUT/Prototype.jpg)<br>**First prototype and tests before designing a proper board**
 
 
 The final, production-ready board contains a DAC (Digital to Analogue Converter) which turns the 10 bits digital signal at 16.7 MHz provided by the DS Lite into a proper analogue signal. This signal then goes through an amplifier and it's ready to be delivered to your nearest TV trough composite video.
