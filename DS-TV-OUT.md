@@ -38,11 +38,11 @@ This feature is only found on the Nintendo DS Lite. Nintendo DS Phat does not co
 We only need a few extra hardware components to make this video signal usable. You will be able to download the schematics and gerber files for our open hardware circuit board [from the repository](https://github.com/LostNintendoHistory/Lost-NDS-TV). NOTE: Currently working on revision 1.2 to fix some minor issues.
 
 <center>
-<img src="https://raw.githubusercontent.com/LostNintendoHistory/lostnintendohistory.github.io/main/img/NDSTVOUT/Prototype.jpg" width="350" height="350">
-<b>First prototype and tests before designing a proper board</b>
+<img src="https://raw.githubusercontent.com/LostNintendoHistory/lostnintendohistory.github.io/main/img/NDSTVOUT/Prototype.jpg" width="350" height="350"><br>
 </center>
-
-
+<center>
+  <b>First prototype and tests before designing a proper board</b></center><br>
+  
 
 
 The final, production-ready board contains a DAC (Digital to Analogue Converter) which turns the 10 bits digital signal at 16.7 MHz provided by the DS Lite into a proper analogue signal. This signal then goes through an operational amplifier and it's ready to be delivered to your nearest TV trough composite video.
