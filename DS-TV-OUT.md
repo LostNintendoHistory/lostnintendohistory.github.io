@@ -13,23 +13,23 @@ During late 2020, we discovered that the Nintendo DS Lite had a leftover feature
 
 If you are just interested in installation, this is the current method **while we work on simpler methods** and more features you have requested:
 
-* Install the [flashME CFW](https://ezflash.sosuke.com/wiki/index.php/Flashme) (Custom FirmWare) on your DS Lite
-* Connect the Nintendo DS Lite's flex to the PCB board.
-* Donwload the "NDS TV OUT ENABLE.nds" homebrew from the [NDS TV OUT repo](https://github.com/LostNintendoHistory/Lost-NDS-TV)
-* Download [Twilight Menu](https://github.com/DS-Homebrew/TWiLightMenu/releases)
-* Copy both the NDS TV OUT ENABLE and Twilight Menu .nds files to a flashcart.
-* Use flashme to autoboot into the flashcart. Run Twilight menu, and from there, run the homebrew
-* The console will return to Twilight Menu. Now you can use the buttons on the board to swap between the different screen modes (Upper Screen to TV, Bottom Screen to TV, etc) and launch your games.
+1. Install the [flashME CFW](https://ezflash.sosuke.com/wiki/index.php/Flashme) (Custom FirmWare) on your DS Lite
+2. Connect the Nintendo DS Lite's flex to the PCB board.
+3. Donwload the "NDS TV OUT ENABLE.nds" homebrew from the [NDS TV OUT repo](https://github.com/LostNintendoHistory/Lost-NDS-TV)
+4. Download [Twilight Menu](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+5. Copy both the NDS TV OUT ENABLE and Twilight Menu .nds files to a flashcart.
+6. Use flashme to autoboot into the flashcart. Run Twilight menu, and from there, run the homebrew
+7. The console will return to Twilight Menu. Now you can use the buttons on the board to swap between the different screen modes (Upper Screen to TV, Bottom Screen to TV, etc) and launch your games.
 
 ## Software
 
-The retail firmware of the Nintendo DS Lite (not the BIOS) disables this specific feature early in the boot process. To reenable it, we use a custom firmware like flashme, which is very easy to install and is required only once, plus a homebrew. Despite that, we are working on an even simpler solution to make it available to as many people as possible, our own custom firmware which integrates patches to enable this feature directly on boot.
+The retail firmware of the Nintendo DS Lite disables this specific feature early in the boot process. To reenable it, we use a custom firmware like flashme, which is very easy to install and is required only once, plus a homebrew. Despite that, we are working on an even simpler solution to make it available to as many people as possible, our own custom firmware which integrates patches to enable this feature directly on boot. Additionally, we are currently working with homebrew developers to integrate control of this new feature into existing software for the DS Lite.
 
 ## Hardware
 
-This feature is only found on the Nintendo DS Lite. Nintendo DS Phat does not contain this feature nor does the Nintendo DSi. It is important to remark that **this is not the same hardware** found on Devkits or other special units. This hardware feature is present in virtually **every single Nintendo DS Lite** out there. The reason why it was left there is unknown, but as said before, it is not related to development units, those use a different video capture hardware. Maybe Nintendo imagined the Nintendo Switch as early as 2006?
+This feature is only found on the Nintendo DS Lite. Nintendo DS Phat does not contain this feature nor does the Nintendo DSi. It is important to remark that **this is not the same hardware** found on Devkits or other special units. This hardware feature is present in virtually **every single Nintendo DS Lite** out there. The reason why it was left there is unknown, but as said before, it is not related to development units, those use a different video capture hardware. Perhaps Nintendo imagined the Nintendo Switch as early as 2006?
 
-<center><img src="https://raw.githubusercontent.com/LostNintendoHistory/lostnintendohistory.github.io/main/img/NDSTVOUT/PCB_Rev_11.png" width="350" height="350"></center>
+<center><img src="https://raw.githubusercontent.com/LostNintendoHistory/lostnintendohistory.github.io/main/img/NDSTVOUT/PCB_Rev_11.png" width="350" height="400"></center>
 
 
 We only need a few extra hardware components to make this video signal usable. You will be able to download the schematics and gerber files for our open hardware circuit board [from the repository](https://github.com/LostNintendoHistory/Lost-NDS-TV). NOTE: Currently working on revision 1.2 to fix some minor issues.
@@ -42,6 +42,6 @@ We only need a few extra hardware components to make this video signal usable. Y
 
 
 
-The final, production-ready board contains a DAC (Digital to Analogue Converter) which turns the 10 bits digital signal at 16.7 MHz provided by the DS Lite into a proper analogue signal. This signal then goes through an amplifier and it's ready to be delivered to your nearest TV trough composite video.
+The final, production-ready board contains a DAC (Digital to Analogue Converter) which turns the 10 bits digital signal at 16.7 MHz provided by the DS Lite into a proper analogue signal. This signal then goes through an operational amplifier and it's ready to be delivered to your nearest TV trough composite video.
 
 
