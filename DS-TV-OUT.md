@@ -19,7 +19,7 @@ If you are just interested in installation, this is the current method **while w
 3. Donwload the "NDS TV OUT ENABLE.nds" homebrew from the [NDS TV OUT repo](https://github.com/LostNintendoHistory/Lost-NDS-TV)
 4. Download [Twilight Menu](https://github.com/DS-Homebrew/TWiLightMenu/releases)
 5. Copy both the NDS TV OUT ENABLE and Twilight Menu .nds files to a flashcart.
-6. Use flashme to autoboot into the flashcart. Run Twilight menu, and from there, run the homebrew
+6. Use flashme to autoboot into the flashcart. You can do this by pressing A + B + Start + Select while booting. Run Twilight menu, and from there, run the enabler homebrew.
 7. The console will return to Twilight Menu. Now you can use the buttons on the board to swap between the different screen modes (Upper Screen to TV, Bottom Screen to TV, etc) and launch your games.
 
 ---
