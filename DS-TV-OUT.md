@@ -4,7 +4,8 @@
 
 During late 2020, we discovered that the Nintendo DS Lite had a leftover feature in its SoC allowing it to easily have hardware video output. With a little circuitry and some software hacks, we were able to restore it and make it usable for anyone! No FPGA's, no bulky or cumbersome hardware.
 
-<img src="https://raw.githubusercontent.com/LostNintendoHistory/lostnintendohistory.github.io/main/img/NDSTVOUT/DSTVOUT.jpg" width="250" height="250"><br>
+<center>
+<img src="https://raw.githubusercontent.com/LostNintendoHistory/lostnintendohistory.github.io/main/img/NDSTVOUT/DSTVOUT.jpg" width="250" height="250"><br></center>
 **First iteration of the TV-OUT board in action**
 
 ## Installation 
@@ -27,16 +28,14 @@ The retail firmware of the Nintendo DS Lite (not the BIOS) disables this specifi
 
 This feature is only found on the Nintendo DS Lite. Nintendo DS Phat does not contain this feature nor does the Nintendo DSi. It is important to remark that **this is not the same hardware** found on Devkits or other special units. This hardware feature is present in virtually **every single Nintendo DS Lite** out there. The reason why it was left there is unknown, but as said before, it is not related to development units, those use a different video capture hardware. Maybe Nintendo imagined the Nintendo Switch as early as 2006?
 
-<centre>
-<img src="https://raw.githubusercontent.com/LostNintendoHistory/lostnintendohistory.github.io/main/img/NDSTVOUT/PCB_Rev_11.png"></img>
-</centre>
+<center><img src="https://raw.githubusercontent.com/LostNintendoHistory/lostnintendohistory.github.io/main/img/NDSTVOUT/PCB_Rev_11.png" width="250" height="250"></img></center>
 
 
 We only need a few extra hardware components to make this video signal usable. You will be able to download the schematics and gerber files for our open hardware circuit board [from the repository](https://github.com/LostNintendoHistory/Lost-NDS-TV). NOTE: Currently working on revision 1.2 to fix some minor issues.
 
-<centre>
-<img src="https://raw.githubusercontent.com/LostNintendoHistory/lostnintendohistory.github.io/main/img/NDSTVOUT/Prototype.jpg"></img>
-</centre>
+<center>
+<img src="https://raw.githubusercontent.com/LostNintendoHistory/lostnintendohistory.github.io/main/img/NDSTVOUT/Prototype.jpg" width="250" height="250"></img>
+</center>
 
 **First prototype and tests before designing a proper board**
 
