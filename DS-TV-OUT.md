@@ -2,12 +2,13 @@
 
 ## Introduction
 
-During late 2020, we discovered that the Nintendo DS Lite had a leftover feature in its SoC allowing it to easily have hardware video output. With a little circuitry and some software hacks, we were able to restore it and make it usable for anyone! No FPGA's, no bulky or cumbersome hardware.
+During late 2020, we discovered that the Nintendo DS Lite had a leftover feature in its SoC allowing it to easily have cheap hardware video output. With a little circuitry and some software hacks, we were able to restore it and make it usable for anyone. No FPGA's, no bulky or cumbersome hardware.
 
 <center>
 <img src="https://raw.githubusercontent.com/LostNintendoHistory/lostnintendohistory.github.io/main/img/NDSTVOUT/DSTVOUT.jpg" width="250" height="250"><br></center>
-
-**First iteration of the TV-OUT board in action**
+<center>
+  <b>First iteration of the TV-OUT board in action</b>
+  </center>
 
 ## Installation 
 
@@ -20,6 +21,8 @@ If you are just interested in installation, this is the current method **while w
 5. Copy both the NDS TV OUT ENABLE and Twilight Menu .nds files to a flashcart.
 6. Use flashme to autoboot into the flashcart. Run Twilight menu, and from there, run the homebrew
 7. The console will return to Twilight Menu. Now you can use the buttons on the board to swap between the different screen modes (Upper Screen to TV, Bottom Screen to TV, etc) and launch your games.
+
+---
 
 ## Software
 
@@ -36,9 +39,9 @@ We only need a few extra hardware components to make this video signal usable. Y
 
 <center>
 <img src="https://raw.githubusercontent.com/LostNintendoHistory/lostnintendohistory.github.io/main/img/NDSTVOUT/Prototype.jpg" width="350" height="350"></img>
+<b>First prototype and tests before designing a proper board</b>
 </center>
 
-**First prototype and tests before designing a proper board**
 
 
 
