@@ -35,7 +35,7 @@ This feature is only found on the Nintendo DS Lite. Nintendo DS Phat does not co
 <center><img src="https://raw.githubusercontent.com/LostNintendoHistory/lostnintendohistory.github.io/main/img/NDSTVOUT/PCB_Rev_11.png" width="350" height="400"></center>
 
 
-We only need a few extra hardware components to make this video signal usable. You will be able to download the schematics and gerber files for our open hardware circuit board [from the repository](https://github.com/LostNintendoHistory/Lost-NDS-TV). NOTE: Currently working on revision 1.2 to fix some minor issues.
+We only need a few extra hardware components to make this video signal usable. You will be able to download the schematics and gerber files for our open hardware circuit board [from the repository](https://github.com/LostNintendoHistory/Lost-NDS-TV). The latest version is revision 1.2 which fixes some minor issues with a component in the board.
 
 <center>
 <img src="https://raw.githubusercontent.com/LostNintendoHistory/lostnintendohistory.github.io/main/img/NDSTVOUT/Prototype.jpg" width="350" height="350"><br>
