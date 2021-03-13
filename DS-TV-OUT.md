@@ -14,19 +14,16 @@ During late 2020, we discovered that the Nintendo DS Lite had a leftover feature
 
 If you are just interested in installation, this is the current method **while we work on simpler methods** and more features you have requested:
 
-1. Install the [flashME CFW](https://ezflash.sosuke.com/wiki/index.php/Flashme) (Custom FirmWare) on your DS Lite
-2. Connect the Nintendo DS Lite's upper screen flex to the PCB board.
-3. Donwload the "NDS TV OUT ENABLE.nds" homebrew from the [NDS TV OUT repo](https://github.com/LostNintendoHistory/Lost-NDS-TV)
-4. Download [Twilight Menu](https://github.com/DS-Homebrew/TWiLightMenu/releases)
-5. Copy both the NDS TV OUT ENABLE and Twilight Menu .nds files to a flashcart.
-6. Use flashme to autoboot into the flashcart. You can do this by pressing A + B + Start + Select while booting. Run Twilight menu, and from there, run the enabler homebrew.
-7. The console will return to Twilight Menu. Now you can use the buttons on the board to swap between the different screen modes (Upper Screen to TV, Bottom Screen to TV, etc) and launch your games.
+1. Follow [these steps](https://github.com/LostNintendoHistory/Lost-NDS-TV/tree/main/fwpatch) to install our Custom Firmware that enables the TV Output.
+2. Plug the board into the upper screen socket
+3. Enjoy your TV Output
+
 
 ---
 
 ## Software
 
-The retail firmware of the Nintendo DS Lite disables this specific feature early in the boot process. To reenable it, we use a custom firmware like flashme, which is very easy to install and is required only once, plus a homebrew. Despite that, we are working on an even simpler solution to make it available to as many people as possible, our own custom firmware which integrates patches to enable this feature directly on boot. Additionally, we are currently working with homebrew developers to integrate control of this new feature into existing software for the DS Lite.
+The retail firmware of the Nintendo DS Lite disables this specific feature early in the boot process. To reenable it, we use a custom firmware with patches, which is very easy to install. 
 
 ## Hardware
 
