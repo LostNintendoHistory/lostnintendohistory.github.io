@@ -10,7 +10,7 @@ During late 2020, we discovered that the Nintendo DS Lite had a leftover feature
   <b>First iteration of the TV-OUT board in action</b>
   </center>
 
-## Installation 
+## Installation Steps
 
 If you are just interested in installation, this is the current method **while we work on simpler methods** and more features you have requested:
 
@@ -18,6 +18,9 @@ If you are just interested in installation, this is the current method **while w
 2. Plug the board into the upper screen socket
 3. Enjoy your TV Output
 
+## Installation Video Tutorial
+
+[![NDS TV OUT Installation Tutorial by radioactivepeter](https://img.youtube.com/vi/lBJaaE3PBwQ/0.jpg)](https://www.youtube.com/watch?v=lBJaaE3PBwQ)
 
 ---
 
