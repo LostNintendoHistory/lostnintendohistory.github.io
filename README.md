@@ -1,6 +1,6 @@
 ## Welcome to our page
 
-We are the Lost Nintendo History team. A group of Nintendo enthusiasts and skilled hackers and engineers. Here you will find our projects, repositories and tutorials regarding all of our work.
+We are the LNH team. A group of videogame enthusiasts and skilled hackers and engineers. Here you will find our projects, repositories and tutorials regarding all of our work.
 
 ## Our Projects
 
